@@ -1,6 +1,6 @@
 # NBA Salary Prediction
 Question:
-Build different models and find the best one to see how accurately an NBA Player's salary can be predicted based on many different features. With the top model, find the top five features that contribute most to this prediction 
+Out of different machine learning models, which model most accurately predicts an NBA Player's salary? With the top model, what are the top five features that contribute most to this prediction? 
 
 Finding the data:  
 The data is found on two different websites-
@@ -21,6 +21,14 @@ Looking at the data with how it is read in, there is some cleaning that needs to
 7) There are a few columns with missing data (the percentages columns). Fill in the missing data with zeroes. 
 8) Delete the 'RK' and 'Player' features - RK is only based on how the data was sorted and read in and Player will not be useful in the model
 
-Building different machine learning mdoels: 
-The data was encoded using the get_dummies from pandas for "Pos" (Position) and "Tm" (Team). These are both categorical variables.
+Building different machine learning models: 
+1) Encode the data using the get_dummies from pandas for "Pos" (Position) and "Tm" (Team). These are both categorical variables.
+2) Split the data using a train and test dataset
+3) Try different machine learning models to find the model for best prediction (some options are: Decision Tree, Random Forest, SVR, Extra Trees, Lasso, Ridge, Elastic Net)
+4) Run a Grid Search to find the best parameters for each model 
+5) Get feature importances and find the top five most important features for the model. Graph these features. 
 
+Results: 
+The Decision Tree model ended up being the most accurate model. It was able to predict an NBA Player's salary with a mean absolute error of $2,215,576. While running the feature importances, the top five features that contribute most to this prediction are points scored by player (per game), player's age, free throws attempted (per game), minutes played (per game) and two point field goals attempted (per game). 
+
+Potential sources of bias: 
