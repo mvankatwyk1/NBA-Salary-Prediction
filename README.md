@@ -28,10 +28,10 @@ Building different machine learning models:
 4) Run a Grid Search to find the best parameters for each model 
 5) Get feature importances and find the top five most important features for the model. Graph these features. 
 
-Results: 
+Results: \
 The Decision Tree model ended up being the most accurate model. It was able to predict an NBA Player's salary with a mean absolute error of $2,215,576. While running the feature importances, the top five features that contribute most to this prediction are points scored by player (per game), player's age, free throws attempted (per game), minutes played (per game) and two point field goals attempted (per game). 
 
-Potential sources of bias: 
+Potential sources of bias: \
 There are many potential sources of bias. One is that there could be players who received contracts but then got injured so they didn't play any games. They could have a high salary but zero stats and that could change the model. Another source of bias could be the distribution of salaries. About 3/5 of players receive less that $5,000,000 and the top players receiving $40,000,000. This causes the data to be extremely right skewed. This makes it difficult to predict the salary when the data is not normally distributed. 
 #<img src = "‪C:\Users\mlewi\Documents\salary graph.png">
 
