@@ -38,6 +38,6 @@ The Decision Tree model ended up being the most accurate model. It was able to p
 ![](Image/features.png)
 
 Potential sources of bias: \
-There are a few potential sources of bias for this project. One is that there could be players who signed contracts but were then injured, causing them to not play any games. These players could have a high salary but zero stats, adding bias to the model. Another source of bias could be the distribution of salaries (see figure below).  About 3/5 of players receive less that $5,000,000 and the top players receiving $40,000,000. This causes the data to be extremely right skewed and makes it difficult to predict salary when the data is not normally distributed. 
+There are a few potential sources of bias for this project. One is that there could be players who signed contracts but were then injured, causing them to not play any games. These players could have a high salary but zero stats, adding bias to the model. Another source of bias could be the distribution of salaries (see figure below).  About 3/5 of players receive less that $5,000,000 and the top players receive about $40,000,000. This causes the data to be extremely right skewed and makes it difficult to predict a salary when the data is not normally distributed. 
 ![](Image/salary.png)
 
