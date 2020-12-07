@@ -33,11 +33,11 @@ Building different machine learning models:
 ![](Image/models.png)
 
 Results: \
-The Decision Tree model ended up being the most accurate model. It was able to predict an NBA Player's salary with a mean absolute error of $2,215,576. While running the feature importances, the top five features that contributed most to this prediction are points scored by player (per game), player's age, free throws attempted (per game), minutes played (per game) and two point field goals attempted (per game). 
+The Decision Tree model ended up being the most accurate model. It was able to predict an NBA Player's salary with a mean absolute error of $2,215,576. While running the feature importances, the top five features that contributed most to this prediction are points scored by player (per game), player's age, free throws attempted (per game), minutes played (per game) and two point field goals attempted (per game). This intuitively makes sense because scoring is so highly valued in today's game. For example, players that can score even though they aren't good defenders will still get paid a high salary. Age is also important because large contracts may not be given out to very young or very old players. The remaining three features may not be directly correlated to salary but more to how much they are playing (minutes played, free throws attempted, and two point field goals attempted, which in turn may help them to score more points. 
 
 ![](Image/features.png)
 
 Potential sources of bias: \
-There are a few potential sources of bias for this project. One is that there could be players who signed contracts but were then injured, causing them to not play any games. These players could have a high salary but zero stats, adding bias to the model. Another source of bias could be the distribution of salaries (see figure below).  About 3/5 of players receive less that $5,000,000 and the top players receive about $40,000,000. This causes the data to be extremely right skewed and makes it difficult to predict a salary when the data is not normally distributed. 
+There are a few potential sources of bias for this project. One is that there could be players who signed contracts but were then injured, causing them to not play any games. These players could have a high salary but zeros for all of their stats, adding bias to the model. Another source of bias could be the distribution of salaries (see figure below).  About 3/5 of players receive less that $5,000,000 and the top players receive about $40,000,000. This causes the data to be extremely right skewed and makes it difficult to predict a salary. 
 ![](Image/salary.png)
 
