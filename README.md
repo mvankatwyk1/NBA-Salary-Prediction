@@ -33,7 +33,7 @@ Building different machine learning models:
 ![](Image/models.png)
 
 Results: \
-The Decision Tree model ended up being the most accurate model. It was able to predict an NBA Player's salary with a mean absolute error of $2,215,576. While running the feature importances, the top five features that contribute most to this prediction are points scored by player (per game), player's age, free throws attempted (per game), minutes played (per game) and two point field goals attempted (per game). 
+The Decision Tree model ended up being the most accurate model. It was able to predict an NBA Player's salary with a mean absolute error of $2,215,576. While running the feature importances, the top five features that contributed most to this prediction are points scored by player (per game), player's age, free throws attempted (per game), minutes played (per game) and two point field goals attempted (per game). 
 
 ![](Image/features.png)
 
