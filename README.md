@@ -26,7 +26,7 @@ Looking at the data with how it is read in, there is some cleaning that needs to
 Building different machine learning models: 
 1) Encode the data using the get_dummies from pandas for "Pos" (Position) and "Tm" (Team). These are both categorical variables.
 2) Split the data using a train and test dataset
-3) Try different machine learning models to find the model for best prediction (some options are: Decision Tree, Random Forest, SVR, Extra Trees, Lasso, Ridge, Elastic Net)
+3) Try different machine learning models to find the model for best prediction (some options are: Decision Tree, Random Forest, SVR, Extra Trees, Lasso, Ridge, Elastic Net) using mean absolute error (MAE) and timing how long it takes to fit the model. 
 4) Run a Grid Search to find the best parameters for each model 
 5) Get feature importances and find the top five most important features for the model. Graph these features. 
 
