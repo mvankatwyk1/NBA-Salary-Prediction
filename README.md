@@ -21,6 +21,8 @@ Looking at the data with how it is read in, there is some cleaning that needs to
 7) There are a few columns with missing data (the percentages columns). Fill in the missing data with zeroes. 
 8) Delete the 'RK' and 'Player' features - RK is only based on how the data was sorted and read in and Player will not be useful in the model
 
+![](Image/data.png)
+
 Building different machine learning models: 
 1) Encode the data using the get_dummies from pandas for "Pos" (Position) and "Tm" (Team). These are both categorical variables.
 2) Split the data using a train and test dataset
