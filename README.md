@@ -30,6 +30,8 @@ Building different machine learning models:
 4) Run a Grid Search to find the best parameters for each model 
 5) Get feature importances and find the top five most important features for the model. Graph these features. 
 
+![](Image/features.png)
+
 Results: \
 The Decision Tree model ended up being the most accurate model. It was able to predict an NBA Player's salary with a mean absolute error of $2,215,576. While running the feature importances, the top five features that contribute most to this prediction are points scored by player (per game), player's age, free throws attempted (per game), minutes played (per game) and two point field goals attempted (per game). 
 
