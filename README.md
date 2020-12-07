@@ -18,8 +18,8 @@ Looking at the data with how it is read in, there is some cleaning that needs to
 4) Merge the two dataframes together on Player (there should be a length of 386)
 5) In the '2019/20' column, delete the '$' and ',' so that the data can be read correctly
 6) Many of the features were read in as non-numerical. To fix this, change all features (except player, team, and position) to floats
-7) There are a few columns with missing data (the percentages columns). Fill in the missing data with zeroes. 
-8) Delete the 'RK' and 'Player' features - RK is only based on how the data was sorted and read in and Player will not be useful in the model
+7) Fill in the missing data with zeroes. 
+8) Delete the 'RK' and 'Player' features - RK is only based on how the data was sorted and read in and Player is not useful in the model
 
 ![](Image/data.png)
 
