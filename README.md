@@ -1,6 +1,6 @@
 # NBA Salary Prediction
 Question: \
-How accurately can different machine learning models predict an NBA Player's salary? With the top model, what are the top five features that contribute most to this prediction? 
+How accurately can different machine learning models predict an NBA Player's salary? With the best model, what are the top five features that contribute most to this prediction? 
 
 Finding the data:  
 The data is found on two different websites- \
