@@ -12,7 +12,7 @@ The data is read in to the file by using the read_html function in pandas.
 
 Cleaning the data: \
 Looking at the data with how it is read in, there is some cleaning that needs to be done. 
-1) Some extra lines were read in from the websites and need to be deleted 
+1) Extra lines were read in from the websites and need to be deleted 
 2) There are some duplicate players (ones that switched teams during the season). These players will all be deleted because their salaries by team are messed up and they are "outlier" players
 3) Drop the extra columns from the first website (salary) so the dataframe only contains two columns ('Player' and '2019/20')
 4) Merge the two dataframes together on Player (there should be a length of 386)
